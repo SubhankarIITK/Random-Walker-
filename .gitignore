@@ -1,0 +1,40 @@
+# Python environments and generated files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Frontend dependencies and builds
+node_modules/
+dist/
+coverage/
+*.tsbuildinfo
+
+# Local settings, credentials and process logs
+.env
+.env.*
+!.env.example
+.aws/
+.codex/
+.agents/
+.showcase-logs/
+*.log
+
+# Private presentation drafts, previews and Office lock files
+.build/
+.codex-finalizer/
+~$*
+.ipynb_checkpoints/
+
+# Editor and operating-system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
